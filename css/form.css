@@ -5,4 +5,7 @@ hr {
 	width: 30%;
 }
 
-.chosen-container {display:block;}
+.chosen-container { 
+  display:block !important;
+  margin: 0 auto;
+}
