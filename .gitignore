@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 public
 .tmp
@@ -5,3 +6,8 @@ public
 client/bower_components
 dist
 /server/config/local.env.js
+=======
+node_modules/
+bower_components/
+.tmp/
+>>>>>>> 13c8369f301df6dd2c3a7496a7cd6b783d44ffdf
