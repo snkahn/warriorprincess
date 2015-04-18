@@ -7,6 +7,14 @@
 @import "mixins";
 
 
+.tagline {
+  color: #fff;
+  vertical-align: middle;
+  padding: 36px;
+  font-size: 16px;
+  font-style: italic;
+}
+
 //
 // Buttons
 // --------------------------------------------------
@@ -264,6 +272,15 @@
   border-color: darken($well-bg, 10%);
   $shadow: inset 0 1px 3px rgba(0,0,0,.05), 0 1px 0 rgba(255,255,255,.1);
   @include box-shadow($shadow);
+}
+
+//
+// Map section
+// -------------------------------------------------
+
+.map {
+  background-color: #e4e9e5;
+  .row {margin:16px;}
 }
 
 //

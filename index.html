@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Get Started</title>
+    <title>Code in your Community</title>
 
+  <link rel="icon" href="favicon.ico">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <link href="css/chosen.min.css" rel="stylesheet">
@@ -18,34 +19,33 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="http://girldevelopit.com"><img src="gdi-logo.png" alt="Girl Develop It Logo"/></a>
     </div>
+    <p class="tagline">Get started with help and resources in your own community</p>
     </div>
     </nav>
 
 <!-- Body content -->
     <div class="container-fixed">
   <!-- Section goal -->
-     <section class="row goal">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="row">
-              <h2 class="text-center">Tell us what you want to do</h2>
-              <div class="col-xs-12 col-sm-6 col-md-6">
-                <p class="text-right response">I want to</p>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6">
-                <!-- Split button -->
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default">just talk</button>
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <span class="caret"></span>
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">research career options</a></li>
-                    <li><a href="#">change career</a></li>
-                    <li><a href="#">pursue a hobby/ persoanl projec/professional development</a></li>
-                  </ul>
-                </div>
-              </div>
+ <section class="row goal">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="row">
+          <h2 class="text-center">Tell us what you want to do</h2>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <p class="text-right response">I want to</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <!-- Split button -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">Just talk</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Research career options</a></li>
+                <li><a href="#">Change careers</a></li>
+                <li><a href="#">Make something for a personal project/hobby</a></li>
+              </ul>
             </div>
           </div>
         </section>
@@ -118,7 +118,36 @@
             </div>
           </div>
         </section>
-   </div>
+
+
+    <!-- Map and List of recommendations -->
+
+    <hr>
+    <section class="row map">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+       <div class="row">
+        <h2 class="text-center">Some resources near you</h2>
+        <div class="us_map"></div>
+
+        <div class="col-xs-6">
+        <article class="person">
+          <h3>Rachel Nabors</h3>
+          <p>This person's story. Cupcake ipsum dolor sit. Amet tart cookie soufflé soufflé. Tootsie roll lollipop gummies liquorice. Fruitcake dessert cotton candy lollipop lollipop jelly beans topping. Oat cake caramels cupcake brownie donut carrot cake bear claw cupcake. Jelly beans tart macaroon liquorice tootsie roll pie. Gummies lollipop sweet powder candy canes. Jelly-o pie jujubes fruitcake caramels sweet dessert. Candy gummi bears icing chocolate cake. Croissant candy pastry brownie. Biscuit donut bear claw. Chocolate bar cheesecake sweet. Candy dessert marshmallow jelly jujubes.</p>
+        <button>Contact Rachel</button>
+        </article>
+      </div>
+
+        <div class="col-xs-6">
+        <article class="resource">
+          <h3>Girl Develop It</h3>
+          <i>In-person classes</i>
+          <p>Girl Develop It is a nonprofit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Through in-person classes and community support, Girl Develop It helps women of diverse backgrounds achieve their technology goals and build confidence in their careers and their every day lives.</p>
+        <button>Learn more</button>
+        </article>
+      </div>
+    </div>
+    </section>
+
 <!-- GDI footer-->
 <footer class="brand">
 
@@ -133,5 +162,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/chosen.jquery.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/usa_states.js"></script>
+    <script src="js/chapter_map.js"></script>
   </body>
 </html>
