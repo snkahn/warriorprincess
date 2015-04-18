@@ -1,11 +1,15 @@
+section {
+	margin-bottom: 2em;
+}
 .response {
 	font-size: 1.5em;
 }
-hr {
-	width: 30%;
-}
-
 .chosen-container { 
   display:block !important;
   margin: 0 auto;
+}
+.get-recommendation {
+	 display:block !important;
+	margin: 0 auto;
+	font-size: 1.5em;
 }
