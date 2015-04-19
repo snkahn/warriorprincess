@@ -5,7 +5,7 @@ angular.module('warriorApp')
     $stateProvider
       .state('main', {
         url: '/',
-        templateUrl: 'app/main/recommender.html',
+        templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       });
   });
