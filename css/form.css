@@ -33,8 +33,44 @@ section {
 .modal-dialog {
 	width: 90%;
 }
+.modal-body,
 .add-resource-form {
 	overflow: auto;
 	margin-bottom: 0;
 }
+textarea.tell-your-story {
+	height: 200px;
+	margin-bottom: 1em;
+}
+button.upload-video {
+	margin-bottom: 2em;
+}
+.become-mentor,
+.yes-no-radio {
+	margin-top: 2em;
+}
+.mentor-email {
+	width: 30%;
+}
+.mentor-name {
+	width: 50%;
+}
 /* Media query */
+
+@media screen and (max-width: 767px) {
+	.mentor-email,
+	.mentor-name {
+		width: 100%;
+	}
+	.yes-no-radio {
+		margin-top: 0;
+	}
+	.mentor-name-container,
+	.email-container {
+		margin-top: 1em;
+	}
+}
+
+
+
+
