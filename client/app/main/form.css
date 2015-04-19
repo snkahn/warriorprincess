@@ -1,8 +1,40 @@
+section {
+  margin-bottom: 2em;
+}
 .response {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
-hr {
-	width: 30%;
+.chosen {
+  width: 100%;
 }
-
-.chosen-container {display:block;}
+.chosen-container-multi  .chosen-choices {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+.chosen-choices {
+  border-radius: 4px;
+}
+.chosen-container {
+  display:block !important;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.submit-resource,
+.get-recommendation {
+  font-size: 1.2em;
+}
+.get-recommendation {
+  display:block !important;
+  margin: 0 auto;
+}
+.submit-resource {
+  margin-top: 1em;
+}
+.modal-dialog {
+  width: 90%;
+}
+.add-resource-form {
+  overflow: auto;
+  margin-bottom: 0;
+}
+/* Media query */
