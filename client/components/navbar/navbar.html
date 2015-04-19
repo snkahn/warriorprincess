@@ -1,29 +1,28 @@
-<div class="navbar navbar-default navbar-static-top" ng-controller="NavbarCtrl">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" ng-click="isCollapsed = !isCollapsed">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="/" class="navbar-brand">Warrior Princess</a>
-    </div>
-    <div collapse="isCollapsed" class="navbar-collapse collapse" id="navbar-main">
-      <ul class="nav navbar-nav">
-        <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
-            <a ng-href="{{item.link}}">{{item.title}}</a>
-        </li>
-        <li ng-show="isAdmin()" ng-class="{active: isActive('/admin')}"><a href="/admin">Admin</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li ng-hide="isLoggedIn()" ng-class="{active: isActive('/signup')}"><a href="/signup">Sign up</a></li>
-        <li ng-hide="isLoggedIn()" ng-class="{active: isActive('/login')}"><a href="/login">Login</a></li>
-        <li ng-show="isLoggedIn()"><p class="navbar-text">Hello {{ getCurrentUser().name }}</p> </li>
-        <li ng-show="isLoggedIn()" ng-class="{active: isActive('/settings')}"><a href="/settings"><span class="glyphicon glyphicon-cog"></span></a></li>
-        <li ng-show="isLoggedIn()" ng-class="{active: isActive('/logout')}"><a href="" ng-click="logout()">Logout</a></li>
-      </ul>
-    </div>
+<div class="navbar navbar-default navbar-static-top">
+  <div class="container" ng-controller="NavbarCtrl">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="http://girldevelopit.com"><img src="gdi-logo.png" alt="Girl Develop It Logo"/></a>
+          </div>
+          <p class="tagline">Get started with help and resources in your own community</p>
+          <div class="btn-group pull-right">
+            <button class="btn btn-primary" type="button">Contribute</button>
+            <button aria-expanded="false" data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul role="menu" class="dropdown-menu">
+              <li><a href="#">Contribute a story</a></li>
+              <li><a href="#">Be a mentor</a></li>
+              <li><a href="#">List a resource</a></li>
+              <li class="divider"></li>
+              <li><button class="btn btn-donate"><a href="#">Donate to our Scholarship Fund</a></button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
   </div>
 </div>

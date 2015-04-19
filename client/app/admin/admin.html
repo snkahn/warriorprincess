@@ -1,12 +1,32 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 
+<!-- Body content -->
 <div class="container">
-  <p>The delete user and user index api routes are restricted to users with the 'admin' role.</p>
-  <ul class="list-group">
-    <li class="list-group-item" ng-repeat="user in users">
-        <strong>{{user.name}}</strong><br>
-        <span class="text-muted">{{user.email}}</span>
-        <a ng-click="delete(user)" class="trash"><span class="glyphicon glyphicon-trash pull-right"></span></a>
-    </li>
-  </ul>
+  <!-- Section goal -->
+  <section class="row goal">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="row">
+        <h2>Admin</h2>
+        <p>Curate which resources, mentors, and community member stories are displayed on the map.</p>
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Pending Review</th>
+            <th></th>
+            <th></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Story</td>
+            <td><button class="btn btn-default">View Submission</button></td>
+            <td><button class="btn btn-primary btn-sm">Approve</button> <button class="btn btn-default btn-sm">Reject</button></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 </div>
+
+<div ng-include="'components/navbar/footer.html'"></div>
