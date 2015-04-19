@@ -1,8 +1,76 @@
+section {
+	margin-bottom: 2em;
+}
 .response {
 	font-size: 1.5em;
 }
-hr {
+.chosen {
+	width: 100%;
+}
+.chosen-container-multi  .chosen-choices {
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+} 
+.chosen-choices {
+	border-radius: 4px;
+}
+.chosen-container { 
+	display:block !important;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+.submit-resource,
+.get-recommendation {
+	font-size: 1.2em;
+}
+.get-recommendation {
+	display:block !important;
+	margin: 0 auto;
+}
+.submit-resource {
+	margin-top: 1em;
+}
+.modal-dialog {
+	width: 90%;
+}
+.modal-body,
+.add-resource-form {
+	overflow: auto;
+	margin-bottom: 0;
+}
+textarea.tell-your-story {
+	height: 200px;
+	margin-bottom: 1em;
+}
+button.upload-video {
+	margin-bottom: 2em;
+}
+.become-mentor,
+.yes-no-radio {
+	margin-top: 2em;
+}
+.mentor-email {
 	width: 30%;
 }
+.mentor-name {
+	width: 50%;
+}
+/* Media query */
 
-.chosen-container {display:block;}
+@media screen and (max-width: 767px) {
+	.mentor-email,
+	.mentor-name {
+		width: 100%;
+	}
+	.yes-no-radio {
+		margin-top: 0;
+	}
+	.mentor-name-container,
+	.email-container {
+		margin-top: 1em;
+	}
+}
+
+
+
+
