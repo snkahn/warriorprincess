@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Code in your Community</title>
+
+  <link rel="icon" href="favicon.ico">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/chosen.min.css" rel="stylesheet">
+  </head>
+  <body>
+<!-- Navbar header -->
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://girldevelopit.com"><img src="gdi-logo.png" alt="Girl Develop It Logo"/></a>
+    </div>
+    <p class="tagline">Get started with help and resources in your own community</p>
+    </div>
+    </nav>
+
+<!-- Body content -->
+    <div class="container">
+      <!-- Section submit resource -->
+          <section class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="row">
+                  <div class="col-xs-12 col-sm-3 col-sm-offset-5 col-md-3 col-md-offset-5">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addResource">Add a Resource</button>
+                  </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="addResource" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Add a Resource</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="add-resource-form form-group">
+                              <div class="col-xs-12 col-sm-2 col-md-2">
+                                <!-- Single select dropdown-->
+                                <label for="selectResourceCategory">Resource Category</label>
+                                <select class="resource-category form-control">
+                                  <option>Online</option>
+                                  <option>Local</option>
+                                  <option>Bootmap</option>
+                                  <option>Apprenticeship</option>
+                                </select>
+                              </div>
+                              <div class="col-xs-12 col-sm-2 col-md-2">
+                                <!-- Single select dropdown-->
+                                <label for="selectPaidFree">Free or Paid</label>
+                                <select class="paid-free form-control">
+                                  <option>Free</option>
+                                  <option>Paid</option>
+                                </select>
+                              </div>
+                              <div class="col-xs-12 col-sm-2 col-md-2">
+                                <!-- Single select dropdown-->
+                              <label for="selectLocation">Location</label>
+                                <select class="location form-control">
+                                  <option>Chapel Hill, NC</option>
+                                  <option>Durham, NC</option>
+                                  <option>Releigh, NC</option>
+                                </select>
+                              </div>
+                              <div class="col-xs-12 col-sm-3 col-md-3">
+                              <label for="inputResourceName">Resource Name</label>
+                                <!-- Input text-->
+                                <input type="resourceName" class="form-control" id="resourceName" placeholder="Enter resource name">
+                              </div>
+                              <div class="col-xs-12 col-sm-3 col-md-3">
+                                <!-- Input text-->
+                                <label for="inputResourceURL">Resource URL</label>
+                                <input type="resourceURL" class="form-control" id="resourceURL" placeholder="Enter resource URL">
+                              </div>
+                            </div> <!--/form-group-->
+
+                          </div>
+                          <div class="modal-footer">
+                            <div class="checkbox">
+                                <label>
+                                  <input type="checkbox" id="checkboxWarning" value="option1">
+                                    Add another resource
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div><!--/modal-->
+              </div>
+            </div>
+          </section>
+      </div>
+<!-- GDI footer-->
+<footer class="brand">
+
+<p>Made with love by Team Warrior Princess at Battlehack Raleigh.</p> <i>To learn about ways to support Girl Develop It, email us at sponsorships@girldevelopit.com or visit our Donate page.</i>
+</footer>
+
+            
+   </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/usa_states.js"></script>
+    <script src="js/chapter_map.js"></script>
+  </body>
+</html>
