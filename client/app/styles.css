@@ -5651,6 +5651,9 @@ button.close {
   font-size: 16px;
   font-style: italic; }
 
+.navbar-default {
+  border: transparent; }
+
 .navbar .btn-group {
   top: 24px; }
   .navbar .btn-group button {
