@@ -46,7 +46,7 @@
 
 
   .btn-donate {
-    @include gradient-vertical(#d8ae64, 0, darken(#d8ae64, 12%));
+    @include gradient-vertical(#d8ae64, darken(#d8ae64, 12%));
   }
 
   .badge {
