@@ -9,10 +9,18 @@
 
 .tagline {
   color: #fff;
+  display: inline-block;
   vertical-align: middle;
   padding: 36px;
   font-size: 16px;
   font-style: italic;
+}
+
+.navbar .btn-group { 
+  top: 24px;
+  button {
+    font-size: 1.3em;
+  }
 }
 
 //

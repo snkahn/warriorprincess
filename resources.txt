@@ -1,0 +1,33 @@
+Online Free
+
+Khan Academy, Online, Free, https://www.khanacademy.org/computing/computer-programming, Learn how to program drawings, animations, and games using JavaScript & ProcessingJS, or learn how to create webpages with HTML & CSS. You can share whatever you create, explore what others have created and learn from each other!
+Code Academy, Online, Free, http://www.codecademy.com/, Learn to code interactively, for free.
+Code.org, Online, Free, Every student in every school should have the opportunity to learn computer science.
+
+
+Online Paid
+
+Treehouse, Online, Paid, https://teamtreehouse.com/subscribe/plans?trial=yes,Learn from over 1000 videos created by expert teachers on web design, coding, business, and much more. Our library is continually refreshed with the latest on web technology so you'll never fall behind.
+Lynda, Online, Paid, http://www.lynda.com/, New skills. Improved skills. Now. Learn technology, creative and business skills you can use today.
+Tuts+, Online, Paid, http://tutsplus.com/, Video courses to build new skills from start to finish. Over 510 easy-to-follow video courses by expert instructors, plus dozens of new courses added each month. 
+
+Local to the Triangle Free
+
+Railsbridge, Local, Free, http://railsbridgetriangle.com/, Everyone can code! with Ruby.
+Code for Raleigh, Local, Free, http://codeforraleigh.com/
+Triangle Hacker Hour, Local, Free, http://www.meetup.com/trianglehackerhours/
+
+
+Local to the Triangle Paid
+
+Girl Develop It, Local, Paid, https://www.girldevelopit.com/chapters/raleigh-durham, It can be intimidating for women to learn and ask questions when they are in an extreme minority. While open and welcoming, today's budding developer community is up to 91% male. There isn't a comfortable place where women can learn at their own pace and not be afraid to ask "stupid questions." We decided it was time to provide a place where all questions are OK and everyone can learn in a supportive environment. Our courses focus on coding, leveraging existing technology, and having something to show for it (aka building sweet websites). 
+
+Bootcamp
+
+Ironyard Academy, Local, Paid, http://theironyard.com/locations/raleigh-durham/, Learn to code. Life's too short for the wrong career.
+AstroCode School, Local, Paid, https://www.caktusgroup.com/blog/2015/01/26/were-launching-django-code-school-astro-code-school/
+
+Apprenticeships
+
+Role Model Software, Local, Paid, Craftmanship Academy, http://craftsmanshipacademy.com/apply/
+
